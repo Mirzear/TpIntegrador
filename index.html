@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Integrador bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand" id="header">
+        <div class="container-fluid ms-5 me-5">
+            <a class="navbar-brand text-white" href="#">
+                <img src="./imgs/codoacodo.png" width="125" height="50" alt="Logo" > Conf Bs As
+            </a>
+            <div class="collapse navbar-collapse" >
+                <ul class="navbar-nav ms-auto mb-2 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="idnav1" aria-current="page" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" id="idnav2">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" id="idnav2">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" id="idnav2">Convirtete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" id="ticketColor">Comprar tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="card text-bg-dark">
+        <div class="img-container">
+            <img src="./imgs/hawaii.jpg" class="card-img opacity-75" alt="..." >
+        </div>
+        <div class="card-img-overlay" id="hawai">
+            <h5 class="card-title text-end" id="hawaiTittle">Conf Bs As</h5>
+                <p class="card-text text-end mt-3" id="hawaiTxt">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivle que tenemos para ti. Te esperamos!</p>
+            <div class="container-button text-end mt-3">
+                <a class="card-text border border-seconday rounded" id="serOrador" href="">Quiero ser orador</a>
+                <a class="card-text border border-success rounded" id="comprarTicket" href="">Comprar tickets</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center" >
+        <h5 class="fs-6 mt-3">CONOCE A LOS</h5>
+        <h4 class="fs-1">ORADORES</h4>
+    </div>
+    <div class="card-group ms-5 me-5 mb-5">
+        <div class="card ms-5 me-5 border rounded-top">
+            <div class="img-container">
+                <img src="./imgs/steve.jpg" class="card-img-top rounded-top" alt="Steve Jobs">
+            </div>
+            <div class="card-body">
+                <h5 class=" badge bg-warning text-wrap text-dark">JavaScript</h5>
+                <h5 class=" badge bg-primary text-wrap ">React</h5>
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates earum praesentium harum voluptas nemo! Delectus deserunt rerum ea vel id, amet, rem ipsa ducimus labore quas, nesciunt expedita recusandae quaerat.</p>
+            </div>
+        </div>
+        <div class="card me-5 border rounded-top">
+            <div class="img-container">
+                <img src="./imgs/bill.jpg" class="card-img-top rounded-top" alt="Bill Gates">
+            </div>
+            <div class="card-body">
+                <h5 class=" badge bg-warning text-wrap text-dark">JavaScript</h5>
+                <h5 class=" badge bg-primary text-wrap">React</h5>
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates earum praesentium harum voluptas nemo! Delectus deserunt rerum ea vel id, amet, rem ipsa ducimus labore quas, nesciunt expedita recusandae quaerat.</p>
+            </div>
+        </div>
+        <div class="card me-5 border rounded-top">
+            <div class="img-container">
+                <img src="./imgs/ada.jpeg" class="card-img-top rounded-top" alt="Bill Gates" height="100%">
+            </div>
+            <div class="card-body">
+                <h5 class=" badge bg-secondary text-wrap">Negocios</h5>
+                <h5 class=" badge bg-danger text-wrap">Startups</h5>
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates earum praesentium harum voluptas nemo! Delectus deserunt rerum ea vel id, amet, rem ipsa ducimus labore quas, nesciunt expedita recusandae quaerat.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="./imgs/honolulu.jpg" alt="..." width="100%">
+                </div>
+            </div>
+            <div class="col-md-6" id="cardHonolulu">
+                <div class="card-body">
+                    <h5 class="card-title fs-3">Bs As - Octubre</h5>
+                    <p class="card-text">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas suren;ia de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
+                    <a class="card-text border border-seconday rounded" id="botonHolulu" href="">Conoce mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <h6>CONVIERTETE EN UN</h6>
+        <h4 class="fs-2">ORADOR</h4>
+        <h6>Anotate como orador para dar una <u class="subrayado">charla ignite.</u> Cuentanos de que quieres hablar!</h6>
+    </div>
+    <div class="container-fuild ms-5 me-5">
+        <div class="row ms-5 me-5">
+            <div class="col-6">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="">
+                    <label for="floatingInput">Nombre</label>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="">
+                    <label for="floatingPassword">Apellido</label>
+                </div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2" class="fs-5">Sobre que quieres hablar?</label>
+            </div>
+            <h5 class="fs-6 fw-light">Recuerda incluir un titulo para tu charla</h5>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Enviar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
