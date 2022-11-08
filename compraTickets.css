@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: rgb(70, 71, 71);
+    width: 100%;
+}
+#idnav1{
+    color: white;
+}
+#idnav2{
+    color: grey;
+}
+#ticketColor{
+    color: rgb(45, 172, 45);
+}
+.contenedor-elementos{
+    display: flex;
+    background-color: rgb(0, 103, 129);
+    justify-content: space-evenly;
+}
+.contenedor-elementos a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 10px;
+}   
+#extraconfig1{
+    width: 100.109px;
+    height: 72px;
+    margin-top: 15px;
+}
+#extraconfig2{
+    margin-top: 25px;
+}
+/*Descuentos*/
+#descuentos{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#margenDescuentos{
+    margin-left: 100px;
+}
+/* Formulario*/
+#name{
+    width: 40%;
+    margin-left: 60%;
+}
+#apellido{
+    width: 40%;
+    margin-right: 60%;
+}
+#correo{
+    width: 41%;
+    margin-left: 29.5%;
+    margin-right: 30%;
+margin-bottom: 0.5%;
+}
+#qty{
+    width: 40%;
+    margin-left: 60%;
+}
+#cantidad{
+    width: 40%;
+    margin-left: 60%;
+}
+#categoria{
+    width: 40%;
+    margin-right: 60%;
+    padding: 6px;
+}
+#total{
+    background-color: rgb(141, 183, 245);
+    width: 41%;
+    margin-left: 29.5%;
+    margin-right: 30%;
+    padding: 10px;
+}
+#botonBorrar{
+    width: 40%;
+    margin-left: 60%;
+    background-color: rgb(1, 190, 33);
+    color: white;
+    border-style: none;
+    padding: 7px;
+}
+#botonResumen{
+    width: 40%;
+    margin-right: 60%;
+    background-color: rgb(1, 190, 33);
+    color: white;
+    border-style: none;
+    padding: 7px;
+}
+/*Footer*/
+#colorFooter{
+    background-color: rgb(68, 73, 90);
+}
